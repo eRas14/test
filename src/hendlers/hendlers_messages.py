@@ -19,4 +19,4 @@ async def right_choice(message: types.Message):
 
 @router.message()
 async def wrong_button(message: types.Message):
-    await message.answer("Пожалуйста выберите одну из кнопок")
+    await message.answer("Пожалуйста выберите одну из кнопок!")
