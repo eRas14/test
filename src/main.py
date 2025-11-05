@@ -14,6 +14,7 @@ bot = Bot(token=BOT_TOKEN)
 # Диспетчер
 dp = Dispatcher()
 
+
 dp.include_routers(hendlers_messages.router)
 # Запуск процесса поллинга новых апдейтов
 async def main():
